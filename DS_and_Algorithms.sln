@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS_and_Algorithms", "DS_and_Algorithms\DS_and_Algorithms.csproj", "{6EA2819A-90CD-46B6-B41F-0DD4F14EF277}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cheat sheets", "Cheat sheets", "{11FF2BE8-D335-4E59-B2DC-2B1F2E010DBD}"
+	ProjectSection(SolutionItems) = preProject
+		Big O(n) cheat sheet.txt = Big O(n) cheat sheet.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EA2819A-90CD-46B6-B41F-0DD4F14EF277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA2819A-90CD-46B6-B41F-0DD4F14EF277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA2819A-90CD-46B6-B41F-0DD4F14EF277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA2819A-90CD-46B6-B41F-0DD4F14EF277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6074312E-036E-4403-9C7E-E4243B44DF3C}
+	EndGlobalSection
+EndGlobal
