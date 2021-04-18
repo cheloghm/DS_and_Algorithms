@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cheat sheets", "Cheat sheets", "{11FF2BE8-D335-4E59-B2DC-2B1F2E010DBD}"
 	ProjectSection(SolutionItems) = preProject
 		Big O(n) cheat sheet.txt = Big O(n) cheat sheet.txt
+		Interview cheat sheet.txt = Interview cheat sheet.txt
 	EndProjectSection
 EndProject
 Global
