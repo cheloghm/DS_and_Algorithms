@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DS_and_Algorithms.DS_Arrays.Exercise;
+using System;
 
 namespace DS_and_Algorithms
 {
@@ -21,11 +22,10 @@ namespace DS_and_Algorithms
         #endregion
 
         #region Google interview question
-        public static int[] GQarray = new int[] { 6, 4, 3, 2, 1, 7 };
+        public static int[] GQarray = new int[] { 6, 3, 6, 4, 1, 2, 1, 7, 3 };
         #endregion
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
             #region Uncomment for Find_nemo
             //Find_nemo nemo = new Find_nemo();
 
@@ -43,10 +43,24 @@ namespace DS_and_Algorithms
             #endregion
 
             #region Google interview question
-            GoogleQuestion question = new GoogleQuestion();
-            Console.WriteLine(question.HasPairWithSum2(GQarray, 9));
+            //GoogleQuestion question = new GoogleQuestion();
+            //Console.WriteLine(question.HasPairWithSum2(GQarray, 9));
             #endregion
 
+            #region String Reverse
+            //StringReverse reverse = new StringReverse();
+            //reverse.Reverse4("Graham is happy");
+            #endregion
+
+            #region Recurring Element
+            //FirstRecurringElement FE = new FirstRecurringElement();
+            //FE.RecurringElement(GQarray);
+            #endregion
+
+            #region Recurring Element
+            MergeSortedArrays MS = new MergeSortedArrays();            
+            MS.Sort(intArray1, intArray2);
+            #endregion
 
         }
     }

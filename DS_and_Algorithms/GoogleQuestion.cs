@@ -10,11 +10,9 @@ namespace DS_and_Algorithms
         public bool HasPairWithSum(int[] array, int sum)
         {
             for (int i = 0; i < array.Length - 1; i++)
-            {
                 for (int j = i + 1; j < array.Length; j++)
                     if (array[i] + array[j] == sum)
                         return true;
-            }
             return false;
         }
         #endregion
