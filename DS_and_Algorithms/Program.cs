@@ -58,8 +58,30 @@ namespace DS_and_Algorithms
             #endregion
 
             #region Recurring Element
-            MergeSortedArrays MS = new MergeSortedArrays();            
-            MS.Sort(intArray1, intArray2);
+            //MergeSortedArrays MS = new MergeSortedArrays();            
+            //MS.Sort(intArray1, intArray2);
+            #endregion
+
+            #region Maximum Sub Array
+            var nums = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 }; // 6
+            var nums2 = new int[] { 1 }; // 1
+            var nums3 = new int[] { 5, 4, -1, 7, 8 }; //23
+            var nums4 = new int[] { -2, -1 }; // -1
+            var nums5 = new int[] { -2, 1 }; // 1
+            var nums6 = new int[] { -1, -2 }; // -1
+            var nums7 = new int[] { 1, 2 }; // 3
+            var nums8 = new int[] { -1, 0 }; // 0
+            var nums9 = new int[] { 1, -1, 1 }; // 1
+            MaximumSubArray MSA = new MaximumSubArray();
+            Console.WriteLine(MSA.MaxSubArray(nums));
+            Console.WriteLine(MSA.MaxSubArray(nums2));
+            Console.WriteLine(MSA.MaxSubArray(nums3));
+            Console.WriteLine(MSA.MaxSubArray(nums4));
+            Console.WriteLine(MSA.MaxSubArray(nums5));
+            Console.WriteLine(MSA.MaxSubArray(nums6));
+            Console.WriteLine(MSA.MaxSubArray(nums7));
+            Console.WriteLine(MSA.MaxSubArray(nums8));
+            Console.WriteLine(MSA.MaxSubArray(nums9));
             #endregion
 
         }
